@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Construct xi
 dx = 0.10
 xi = np.arange(0, np.pi/2, dx)
-
+print(xi[1:-1])
 # Function values
 fi = np.sin(xi)
 # Derivative
